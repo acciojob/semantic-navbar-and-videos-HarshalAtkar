@@ -1,2 +1,40 @@
 
 /* Your CSS Code here. */
+/* body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f6f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        } */
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px;
+            color: white;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        video {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 5px #aaa;
+        }
